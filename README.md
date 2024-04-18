@@ -73,8 +73,12 @@ This Python-based solution leverages a powerful combination of libraries:
 
 ## Code Implemetation
 Let's delve deeper into the architecture, exploring its features in more detail.
+These are the notations for better understanding the technical flow of features 
+
+![image](https://github.com/Aditya3012Purwar/Astute_Samsung_Prism/assets/103439955/f1c93b6e-8bfa-4b5f-938b-0f40574fbaba)
 
 ### Multilingual Minutes of Meeting Creation:
+![WhatsApp Image 2024-04-19 at 02 56 43_26efdac2](https://github.com/Aditya3012Purwar/Astute_Samsung_Prism/assets/103439955/a038a57d-798d-4f42-a6b4-6b952d4e3a15)
 
 This feature provides a solution for generating minutes of a meeting (MOM) in multiple languages. Here's a breakdown of the code and the approaches used:
 
