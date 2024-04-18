@@ -8,6 +8,9 @@ Welcome to the Generative AI Workspace for Office Meetings! This project empower
 
 ### Key Features
 
-- Meeting Management: Effortlessly manage your meetings by creating agendas, taking notes, and summarizing key points.
-- Multilingual Understanding: Break down language barriers. The workspace leverages cutting-edge AI to understand meeting content in multiple languages.
-- Question-Answering Engine: Gain deeper insights into your meetings or tasks. Ask the workspace questions about specific topics or action items, and receive tailored responses.
+- ### Meeting Management:
+  Effortlessly manage your meetings by creating agendas, taking notes, and summarizing key points.
+- ### Multilingual Understanding:
+  Break down language barriers. The workspace leverages cutting-edge AI to understand meeting content in multiple languages.
+- ### Question-Answering Engine:
+  Gain deeper insights into your meetings or tasks. Ask the workspace questions about specific topics or action items, and receive tailored responses.
