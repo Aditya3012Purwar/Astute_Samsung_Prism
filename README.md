@@ -91,18 +91,18 @@ This feature provides a solution for generating minutes of a meeting (MOM) in mu
 - The translateentolang() function is a helper function that translates English text to the desired target language using the googletrans library.
 - The save_to_txt() function writes the MOM components (title, agenda, summary, tasks, and important points) to a text file.
 - The MOMAnswer() function utilizes the LangChain library to perform question-answering on the transcript text.
-- - It uses the CharacterTextSplitter to split the transcript into smaller chunks.
-- ###### The HuggingFaceEmbeddings is used to generate embeddings for the text chunks, as it is an open-source library for generating embeddings.
-- ###### The FAISS vector store is used to store the embeddings, as it is an open-source library for efficient similarity search and retrieval.
-- ###### The load_qa_chain function is used to connect the OpenAI language model (LLM) to the FAISS vector store.
-- ###### The reason for using LangChain is its ability to combine LLMs with vector stores for efficient question-answering and information retrieval tasks.
-- ##### The MOM() function is the main function that orchestrates the entire process of generating the MOM.
-- ###### It preprocesses the transcript text by removing noise and performing text normalization.
-- ###### It utilizes the NLTK library (nltk.sent_tokenize, nltk.word_tokenize, nltk.corpus.stopwords) for tasks such as sentence tokenization, word tokenization, and stop word removal.
-- ###### It computes the word frequencies and sentence scores to identify the most important sentences in the transcript.
-- ###### It uses the MOMAnswer() function to generate the title, agenda, tasks, and important points by querying the LangChain question-answering pipeline.
-- ###### If the preferred language is not English, it translates the MOM components to the target language using the translateentolang() function and the googletrans library.
-- ###### The reason for using NLTK is its ability to perform natural language processing tasks, such as tokenization and stop word removal, which are essential for text preprocessing and summarization.
+  - It uses the CharacterTextSplitter to split the transcript into smaller chunks.
+  - The HuggingFaceEmbeddings is used to generate embeddings for the text chunks, as it is an open-source library for generating embeddings.
+  - The FAISS vector store is used to store the embeddings, as it is an open-source library for efficient similarity search and retrieval.
+  - The load_qa_chain function is used to connect the OpenAI language model (LLM) to the FAISS vector store.
+  - The reason for using LangChain is its ability to combine LLMs with vector stores for efficient question-answering and information retrieval tasks.
+- The MOM() function is the main function that orchestrates the entire process of generating the MOM.
+  - It preprocesses the transcript text by removing noise and performing text normalization.
+  - It utilizes the NLTK library (nltk.sent_tokenize, nltk.word_tokenize, nltk.corpus.stopwords) for tasks such as sentence tokenization, word tokenization, and stop word removal.
+  - It computes the word frequencies and sentence scores to identify the most important sentences in the transcript.
+  - It uses the MOMAnswer() function to generate the title, agenda, tasks, and important points by querying the LangChain question-answering pipeline.
+  - If the preferred language is not English, it translates the MOM components to the target language using the translateentolang() function and the googletrans library.
+  - The reason for using NLTK is its ability to perform natural language processing tasks, such as tokenization and stop word removal, which are essential for text preprocessing and summarization.
 The code demonstrates the usage of various open-source libraries and approaches to handle tasks such as audio transcription, translation, text preprocessing, embeddings generation, vector storage, and question-answering. The combination of these libraries and techniques allows for the generation of minutes of meeting in multiple languages, leveraging the strengths of each component.
 
 
