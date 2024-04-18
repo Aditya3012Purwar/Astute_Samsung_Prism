@@ -98,7 +98,8 @@ This feature provides a solution for generating minutes of a meeting (MOM) in mu
   - The reason for using googletrans is its ability to handle multiple languages and provide translations without requiring a separate model for each language pair.
 
 - TimeStamp Transcription:
-  whisperx is an extension of the OpenAI Whisper model, which is a state-of-the-art speech recognition model capable of transcribing audio in multiple languages. The whisperx library provides additional features and enhancements on top of the base Whisper model.
+
+  Whisperx is an extension of the OpenAI Whisper model, which is a state-of-the-art speech recognition model capable of transcribing audio in multiple languages. The whisperx library provides additional features and enhancements on top of the base Whisper model.
   
   ![image](https://github.com/Aditya3012Purwar/Astute_Samsung_Prism/assets/103439955/b79d033e-3bb1-4f20-b8ca-4a8605f5d9cf)
   
@@ -120,9 +121,9 @@ This feature provides a solution for generating minutes of a meeting (MOM) in mu
   
   - The **MOMAnswer()** function utilizes the LangChain library to perform question-answering on the transcript text.
     
-    ![image](https://github.com/Aditya3012Purwar/Astute_Samsung_Prism/assets/103439955/1b561a08-ae08-4eb1-bda6-5d8550e6bb80)
     ![image](https://github.com/Aditya3012Purwar/Astute_Samsung_Prism/assets/103439955/7491da10-d6a4-4020-a648-f1fd2c441fc0)
-
+    ![image](https://github.com/Aditya3012Purwar/Astute_Samsung_Prism/assets/103439955/1b561a08-ae08-4eb1-bda6-5d8550e6bb80)
+    
     - It uses the **CharacterTextSplitter** to split the transcript into smaller chunks.
     - The **HuggingFaceEmbeddings** is used to generate embeddings for the text chunks, as it is an open-source library for generating embeddings.
     - The **FAISS vector store** is used to store the embeddings, as it is an open-source library for efficient similarity search and retrieval.
