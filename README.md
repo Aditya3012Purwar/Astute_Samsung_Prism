@@ -83,15 +83,15 @@ This feature provides a solution for generating minutes of a meeting (MOM) in mu
 - #### File Conversion:
   The mp4tomp3() function allows converting an MP4 video file to an MP3 audio file using the ffmpeg command-line tool. This is a common step in audio processing pipelines.
 - #### Transcription:
-- ##### The transcriptnormal() function utilizes the OpenAI Whisper model to transcribe the audio file (MP3 format) into text.
-- ##### The translate_transcript() function is used to translate the transcribed text into multiple languages. It leverages the googletrans library for translation.
-- ##### This function detects the language of each segment in the text and translates it to the specified target language (default is English).
-- ##### The reason for using googletrans is its ability to handle multiple languages and provide translations without requiring a separate model for each language pair.
-Minutes of Meeting Preparation:
-- ##### The translateentolang() function is a helper function that translates English text to the desired target language using the googletrans library.
-- ##### The save_to_txt() function writes the MOM components (title, agenda, summary, tasks, and important points) to a text file.
-- ###### The MOMAnswer() function utilizes the LangChain library to perform question-answering on the transcript text.
-- ###### It uses the CharacterTextSplitter to split the transcript into smaller chunks.
+- The transcriptnormal() function utilizes the OpenAI Whisper model to transcribe the audio file (MP3 format) into text.
+- The translate_transcript() function is used to translate the transcribed text into multiple languages. It leverages the googletrans library for translation.
+- This function detects the language of each segment in the text and translates it to the specified target language (default is English).
+- The reason for using googletrans is its ability to handle multiple languages and provide translations without requiring a separate model for each language pair.
+- #### Minutes of Meeting Preparation:
+- The translateentolang() function is a helper function that translates English text to the desired target language using the googletrans library.
+- The save_to_txt() function writes the MOM components (title, agenda, summary, tasks, and important points) to a text file.
+- The MOMAnswer() function utilizes the LangChain library to perform question-answering on the transcript text.
+- - It uses the CharacterTextSplitter to split the transcript into smaller chunks.
 - ###### The HuggingFaceEmbeddings is used to generate embeddings for the text chunks, as it is an open-source library for generating embeddings.
 - ###### The FAISS vector store is used to store the embeddings, as it is an open-source library for efficient similarity search and retrieval.
 - ###### The load_qa_chain function is used to connect the OpenAI language model (LLM) to the FAISS vector store.
