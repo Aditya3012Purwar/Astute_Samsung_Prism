@@ -77,7 +77,7 @@ These are the notations for better understanding the technical flow of features
 
 ![image](https://github.com/Aditya3012Purwar/Astute_Samsung_Prism/assets/103439955/f1c93b6e-8bfa-4b5f-938b-0f40574fbaba)
 
-### Multilingual Minutes of Meeting Creation:
+### Multilingual Minutes of Meeting:
 ![WhatsApp Image 2024-04-19 at 02 56 43_26efdac2](https://github.com/Aditya3012Purwar/Astute_Samsung_Prism/assets/103439955/a038a57d-798d-4f42-a6b4-6b952d4e3a15)
 
 This feature provides a solution for generating minutes of a meeting (MOM) in multiple languages. Here's a breakdown of the code and the approaches used:
@@ -146,5 +146,6 @@ This feature provides a solution for generating minutes of a meeting (MOM) in mu
 
 The code demonstrates the usage of various open-source libraries and approaches to handle tasks such as audio transcription, translation, text preprocessing, embeddings generation, vector storage, and question-answering. The combination of these libraries and techniques allows for the generation of minutes of meeting in multiple languages, leveraging the strengths of each component.
 
+### Emailing to all Attendees:
 
-
+### Interactive Chatbot:
