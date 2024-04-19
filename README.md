@@ -100,6 +100,9 @@ This feature provides a solution for generating minutes of a meeting (MOM) in mu
   - The **translate_transcript()** function is used to translate the transcribed text into multiple languages. It leverages the googletrans library for translation.
   - This function detects the language of each segment in the text and translates it to the English Language.
   - The reason for using googletrans is its ability to handle multiple languages and provide translations without requiring a separate model for each language pair.
+  - Output
+    ![image](https://github.com/Aditya3012Purwar/Astute_Samsung_Prism/assets/103439955/7f1b68a5-d1db-4a70-a506-13f4fdefd705)
+
 
 - TimeStamp Transcription:
 
@@ -113,6 +116,8 @@ This feature provides a solution for generating minutes of a meeting (MOM) in mu
   - Batch Processing: whisperx supports batch processing, allowing efficient transcription of longer audio files by splitting them into smaller chunks and processing them in parallel. In the provided code, the batch_size parameter controls the number of audio samples processed simultaneously, which can improve transcription performance, especially on GPU-accelerated systems.
   - Model Selection: whisperx offers different model variants, such as "large-v2" used in the provided code, which can be chosen based on the trade-off between accuracy and computational requirements.
   - Device Support: whisperx supports running on both CPU and GPU devices. In the provided code, the device="cuda" parameter specifies that the transcription should be performed on a CUDA-enabled GPU, which can significantly speed up the transcription process compared to running on a CPU.
+  - Output
+    ![image](https://github.com/Aditya3012Purwar/Astute_Samsung_Prism/assets/103439955/c8178274-2c6b-4e85-9918-8d4a24996470)
 
 - Minutes of Meeting Preparation:
   - The **translateentolang()** function is a helper function that translates English text to the desired target language using the googletrans library.
@@ -143,6 +148,9 @@ This feature provides a solution for generating minutes of a meeting (MOM) in mu
     - It uses the **MOMAnswer()** function to generate the title, agenda, tasks, and important points by querying the LangChain question-answering pipeline.
     - If the preferred language is not English, it translates the MOM components to the target language using the **translateentolang()** function and the googletrans library.
     - The reason for using NLTK is its ability to perform natural language processing tasks, such as tokenization and stop word removal, which are essential for text preprocessing and summarization.
+  - Output
+    ![image](https://github.com/Aditya3012Purwar/Astute_Samsung_Prism/assets/103439955/bb54222e-8c60-4e11-9b1f-4151f82c6b1f)
+
 
 The code demonstrates the usage of various open-source libraries and approaches to handle tasks such as audio transcription, translation, text preprocessing, embeddings generation, vector storage, and question-answering. The combination of these libraries and techniques allows for the generation of minutes of meeting in multiple languages, leveraging the strengths of each component.
 
