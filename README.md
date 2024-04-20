@@ -149,8 +149,20 @@ This feature provides a solution for generating minutes of a meeting (MOM) in mu
     - If the preferred language is not English, it translates the MOM components to the target language using the **translateentolang()** function and the googletrans library.
     - The reason for using NLTK is its ability to perform natural language processing tasks, such as tokenization and stop word removal, which are essential for text preprocessing and summarization.
   - Output
-    ![image](https://github.com/Aditya3012Purwar/Astute_Samsung_Prism/assets/103439955/bb54222e-8c60-4e11-9b1f-4151f82c6b1f)
+    - English
+      ![image](https://github.com/Aditya3012Purwar/Astute_Samsung_Prism/assets/103439955/bb54222e-8c60-4e11-9b1f-4151f82c6b1f)
+      
+    - Hindi
+      ![image](https://github.com/Aditya3012Purwar/Astute_Samsung_Prism/assets/103439955/85a2538f-9b4c-46e0-b951-2f38f2eb87f7)
+      
+    - Gujrati
+      ![image](https://github.com/Aditya3012Purwar/Astute_Samsung_Prism/assets/103439955/3c7be3ba-0c4a-4f54-a685-2148c155a44a)
+      
+    - Tamil
+      ![image](https://github.com/Aditya3012Purwar/Astute_Samsung_Prism/assets/103439955/4d6eaffc-ec37-4959-901a-83f16ff2483f)
 
+    - French
+      ![image](https://github.com/Aditya3012Purwar/Astute_Samsung_Prism/assets/103439955/37c1e84c-57da-4a48-bd55-f07f24824558)
 
 The code demonstrates the usage of various open-source libraries and approaches to handle tasks such as audio transcription, translation, text preprocessing, embeddings generation, vector storage, and question-answering. The combination of these libraries and techniques allows for the generation of minutes of meeting in multiple languages, leveraging the strengths of each component.
 
