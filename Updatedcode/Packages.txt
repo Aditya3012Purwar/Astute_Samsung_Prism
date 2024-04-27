@@ -1,1 +1,7 @@
-
+openai-whisper
+langchain 
+openai==0.27.2 
+faiss-cpu 
+tiktoken 
+sentence-transformers 
+googletrans==4.0.0-rc1
