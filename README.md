@@ -80,7 +80,9 @@ These are the notations for better understanding the technical flow of features
 ### Multilingual Minutes of Meeting:
 ![WhatsApp Image 2024-04-19 at 02 56 43_26efdac2](https://github.com/Aditya3012Purwar/Astute_Samsung_Prism/assets/103439955/a038a57d-798d-4f42-a6b4-6b952d4e3a15)
 
+The code is available in this github file: 
 https://github.com/Aditya3012Purwar/Astute_Samsung_Prism/blob/main/Astute%20Main%20Code.ipynb
+
 This feature provides a solution for generating minutes of a meeting (MOM) in multiple languages. Here's a breakdown of the code and the approaches used:
 
 - Language Selection:
@@ -169,4 +171,10 @@ The code demonstrates the usage of various open-source libraries and approaches 
 
 ### Emailing to all Attendees:
 
+The code is available in this github file: 
+https://github.com/Aditya3012Purwar/Astute_Samsung_Prism/blob/main/Astute%20Main%20Code.ipynb
+
 ### Interactive Chatbot:
+
+The code is available in this github file: 
+https://github.com/Aditya3012Purwar/Astute_Samsung_Prism/blob/main/Astute%20Main%20Code.ipynb
