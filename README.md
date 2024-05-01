@@ -191,9 +191,12 @@ https://github.com/Aditya3012Purwar/Astute_Samsung_Prism/blob/main/Astute%20Main
 ![image](https://github.com/Aditya3012Purwar/Astute_Samsung_Prism/assets/103439955/90140976-52b5-4d50-be19-0f1ce731f4ec)
 
 - Tool Creation: The **Tool** class from the **langchain.agents** module is used to define the tools. Each tool is created by passing a **name**, a **func** (the Python function to be executed), and a **description** (a brief description of what the tool does).
+  ![image](https://github.com/Aditya3012Purwar/Astute_Samsung_Prism/assets/103439955/0de27401-c4e6-42e8-8a63-b2f7deea8960)
+
 - Agent Initialization: After defining the tools, the code initializes two agents using the **initialize_agent** function from LangChain. The first agent, **agent**, is initialized with the list of tools (**tools**) and a language model (**llm**). The second agent, agentgreet, is initialized without any tools.
 - Agent Interaction: The code then prompts the user to enter their name and sets an initial path for the file system operations. It uses the **agentgreet** agent to greet the user and ask how it can assist them.
 - Main Loop: The code enters a loop where it prompts the user to enter a question. For each question, it does the following:
+  ![image](https://github.com/Aditya3012Purwar/Astute_Samsung_Prism/assets/103439955/828945ef-c3c3-4fcb-97c5-7a32efae19c0)
 
   - Uses the OpenAI API to identify the file name mentioned in the question.
   - Constructs a context dictionary containing the initial path, the identified file path, the user's name, the question, and a portion of the chat history.
