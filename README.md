@@ -172,7 +172,7 @@ The code demonstrates the usage of various open-source libraries and approaches 
 ### Emailing to all Attendees:
 
 The code is available in this github file: 
-https://github.com/Aditya3012Purwar/Astute_Samsung_Prism/blob/main/Astute%20Main%20Code.ipynb
+https://github.com/Aditya3012Purwar/Astute_Samsung_Prism/blob/main/Astute%20Email%20Code.ipynb
 
 ### Interactive Chatbot:
 
