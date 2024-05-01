@@ -204,6 +204,7 @@ https://github.com/Aditya3012Purwar/Astute_Samsung_Prism/blob/main/Astute%20Main
   - Prints the response from the agent.
   - Stores the question and response in the **chat_history** list.
 - Output:
+  
   ![image](https://github.com/Aditya3012Purwar/Astute_Samsung_Prism/assets/103439955/5bc4ee92-42ab-4340-96e2-b18feb3d4239)
 
   ![image](https://github.com/Aditya3012Purwar/Astute_Samsung_Prism/assets/103439955/4839975c-4791-47ed-856e-be3c49193d1f)
