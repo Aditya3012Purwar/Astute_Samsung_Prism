@@ -174,6 +174,15 @@ The code demonstrates the usage of various open-source libraries and approaches 
 The code is available in this github file: 
 https://github.com/Aditya3012Purwar/Astute_Samsung_Prism/blob/main/Astute%20Email%20Code.ipynb
 
+The minutes of the meeting (MOM) are shared via email with all attendees, and their respective tasks are also sent to them individually ine email body using an OpenAI key.
+
+Here are the results of the code:
+
+![image](https://github.com/Aditya3012Purwar/Astute_Samsung_Prism/assets/103439955/293e307e-aa7c-4117-b5ec-ac37c9f2bd52)
+
+![image](https://github.com/Aditya3012Purwar/Astute_Samsung_Prism/assets/103439955/f5d84a14-0c4c-4105-8de1-f3ef85bf82f9)
+
+
 ### Interactive Chatbot:
 
 The code is available in this github file: 
